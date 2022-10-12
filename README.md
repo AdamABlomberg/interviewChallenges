@@ -1,4 +1,4 @@
 # interviewChallenges
-## courseSchedule.js
-## findTheOddInt.js
-## sumOfTwoLowestPositiveIntegers.js
+### courseSchedule.js
+### findTheOddInt.js
+### sumOfTwoLowestPositiveIntegers.js
