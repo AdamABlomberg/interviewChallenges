@@ -1,9 +1,7 @@
 var plusOne = (digits) => {
   var stringDigits = digits.join('');
   var intDigits = BigInt(stringDigits);
-  console.log(intDigits);
   var plusOneIntDigits = intDigits + 1n;
-  console.log(plusOneIntDigits);
   return plusOneIntDigits.toString().split('');
 
 }
