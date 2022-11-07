@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/interview challenges/maxArea.js"
+      "program": "${workspaceFolder}/interview challenges/sqrt(x).js"
     }
   ]
 }
