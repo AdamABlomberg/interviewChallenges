@@ -24,30 +24,30 @@ node4.next = node5;
 // console.log(node1);
 // debugger;
 
-var deleteDuplicates = function (head) {
-  if(!head) return head
-    if(head.next && head.val === head.next.val) {
-      head.next = head.next.next;
-    }
-    if(head.next){
-      deleteDuplicates(head.next);
-    }
-    return head;
-};
-
-// var deleteDuplicates = function(head) {
+// var deleteDuplicates = function (head) {
 //   if(!head) return head
-//   var cur = head
+//     if(head.next && head.val === head.next.val) {
+//       head.next = head.next.next;
+//     }
+//     if(head.next){
+//       deleteDuplicates(head.next);
+//     }
+//     return head;
+// };
 
-//   while(cur!=null && cur.next != null) {
-//       if(cur.next.val === cur.val) {
-//           cur.next = cur.next.next
-//       }else {
-//           cur = cur.next
-//       }
-//   }
-//   return head
-// }
+var deleteDuplicates = function(head) {
+  if(!head) return head
+  var cur = head
+
+  while(cur!=null && cur.next != null) {
+      if(cur.next.val === cur.val) {
+          cur.next = cur.next.next
+      }else {
+          cur = cur.next
+      }
+  }
+  return head
+}
 
 
 console.log(deleteDuplicates(node1));
