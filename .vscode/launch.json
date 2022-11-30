@@ -11,7 +11,7 @@
       "skipFiles": [
         "<node_internals>/**"
       ],
-      "program": "${workspaceFolder}/interview challenges/sameTree.js"
+      "program": "${workspaceFolder}/interview challenges/pascalsTriangle2.js"
     }
   ]
 }
