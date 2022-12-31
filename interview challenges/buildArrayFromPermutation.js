@@ -2,12 +2,23 @@
 
 // A zero-based permutation nums is an array of distinct integers from 0 to nums.length - 1 (inclusive).
 
-var buildArray = function(nums) {
+// var buildArray = function(nums) {
 
-  return nums.map(number => {
-    return nums[number]
-  })
+//   return nums.map(number => {
+//     return nums[number]
+//   })
 
-};
+// };
+
+var buildArray = (nums) => {
+
+  var array = [];
+  for ( var i = 0; i < nums.length; i++) {
+    array.push(nums[nums[i]]);
+  }
+
+  return array;
+
+}
 
 console.log(buildArray([0,2,1,5,3,4]));

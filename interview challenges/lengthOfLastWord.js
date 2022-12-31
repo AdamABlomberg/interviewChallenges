@@ -1,5 +1,4 @@
 // Given a string s consisting of words and spaces, return the length of the last word in the string.
-
 // A word is a maximal substring consisting of non-space characters only.
 
 var lengthOfLastWord = function(s) {
@@ -15,6 +14,18 @@ var lengthOfLastWord = function(s) {
     }
     return lastWord.length
 };
+
+// var lengthOfLastWord = (s) => {
+//   var array = s.split(" ");
+//   var arrayOfWords = [];
+//   array.forEach((word) => {
+//     if(word !== "") {
+//       arrayOfWords.push(word);
+//     }
+//   })
+//   return arrayOfWords[arrayOfWords.length-1].length;
+
+// }
 
 console.log(lengthOfLastWord("luffy is still joyboy"));
 console.log(lengthOfLastWord("   fly me   to   the moon  "));
