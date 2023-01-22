@@ -7,7 +7,7 @@
       "type": "process",
       "args": [
         "build",
-        "${workspaceFolder}/c sharp interview challenges/PlusOne/PlusOne.csproj",
+        "${workspaceFolder}/ValidParentheses.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -19,7 +19,7 @@
       "type": "process",
       "args": [
         "publish",
-        "${workspaceFolder}/c sharp interview challenges/PlusOne/PlusOne.csproj",
+        "${workspaceFolder}/ValidParentheses.csproj",
         "/property:GenerateFullPaths=true",
         "/consoleloggerparameters:NoSummary"
       ],
@@ -33,7 +33,7 @@
         "watch",
         "run",
         "--project",
-        "${workspaceFolder}/c sharp interview challenges/PlusOne/PlusOne.csproj"
+        "${workspaceFolder}/ValidParentheses.csproj"
       ],
       "problemMatcher": "$msCompile"
     }
